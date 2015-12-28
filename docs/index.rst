@@ -11,10 +11,6 @@ Apache Kafka のメモ置き場
 .. toctree::
    :maxdepth: 2
 
-索引ページ
-==========
+   topic_or_partition
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
-
