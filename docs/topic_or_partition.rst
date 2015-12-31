@@ -43,5 +43,5 @@ Kafka は pub/sub システムであるので、あるトピックを複数の�
 トピックは基本的に静的なものなので、アクセスログのホスト名のように、突然増えたりする場合には使いにくい。したがって、パーティションを意味的な割り振りに使う場面も出てくる。そんなとき、独自の割り振り戦略を考えるのではなく、文字列のハッシュ値の余りによってパーティションを決定するように設計するのが吉だろう。
 
 .. _Apache Kafka: http://kafka.apache.org/
-.. _fluentd:
+.. _fluentd: http://www.fluentd.org/
 .. _fluent-plugin-kafka: https://github.com/htgc/fluent-plugin-kafka
