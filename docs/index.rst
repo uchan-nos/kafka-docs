@@ -6,6 +6,10 @@
 Apache Kafka のメモ置き場
 =========================
 
+リポジトリ: `uchan-nos/kafka-docs <https://github.com/uchan-nos/kafka-docs>`_
+
+バグトラック: `Issues <https://github.com/uchan-nos/kafka-docs/issues>`_ 誤字脱字報告はこちらまで
+
 コンテンツ:
 
 .. toctree::
