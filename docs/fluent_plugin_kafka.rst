@@ -2,9 +2,14 @@
 fluent-plugin-kafka: fluentd と Kafka の連携
 ============================================
 
-（最終更新：2015 年 12 月 30 日）
+（最終更新：2016 年 1 月 1 日）
 
 `fluentd <http://kafka.apache.org/documentation.html#quickstart>`_ 自体の詳しい説明は他に譲るとして、本文書では fluentd と Kafka を組み合わせる方法を紹介する。本文書を読むと、fluentd で syslog を読み取り、Kafka に流す設定がわかる。Kafka の起動手順は `Apache Kafka Quick Start <http://kafka.apache.org/documentation.html#quickstart>`_ を参照のこと。
+
+本文書で作成するシステムは下図のようになる。
+
+.. image:: ../images/fluent-plugin-kafka.png
+   :alt: fluent kafka architecture
 
 fluentd で syslog を読み取る
 ============================
