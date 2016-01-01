@@ -12,5 +12,6 @@ Apache Kafka のメモ置き場
    :maxdepth: 2
 
    topic_or_partition
+   fluent_plugin_kafka
 
 * :ref:`search`
