@@ -32,7 +32,7 @@ fluentd と Kafka を組み合わせる練習として fluentd で syslog を読
 
    <source>
      @type tail
-     format /^(?<time>\w+ \d+ [\d:]+) (?<hostname>[^ ]+) (?<syslogtag>[^:]+): (?<msg>.*)$/
+     format /^(?<time>\w{3} [ \d]{2} [\d:]+) (?<hostname>[^ ]+) (?<syslogtag>[^:]+): (?<msg>.*)$/
      path /var/log/syslog
      tag syslog
    </source>
