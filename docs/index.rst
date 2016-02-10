@@ -17,5 +17,6 @@ Apache Kafka のメモ置き場
 
    topic_or_partition
    fluent_plugin_kafka
+   kafka_log_directory
 
 * :ref:`search`
